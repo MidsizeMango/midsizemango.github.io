@@ -485,5 +485,91 @@ a {
 .gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
 .gradient-button-4:hover { background-position: right center; }
 
-.gradient-button-5 {background-image: linear-gradient(to right, #68ef1f 0%, #04c94c 10%, #01422c 90%)}
+.gradient-button-5 {background-image: linear-gradient(to right, #5cf99d 0%, #05b24d 30%, #3bf75b 100%)}
 .gradient-button-5:hover { background-position: right center; }
+
+.gradient-button-6 {background-image: linear-gradient(to right, #565656 0%, #191919	 51%, #565656 100%)}
+.gradient-button-6:hover { background-position: right center; }
+
+.gradient-button-gplus {background-image: linear-gradient(to right, #f72e5a 0%, #ff0000	 51%, #f72e5a 100%)}
+.gradient-button-gplus:hover { background-position: right center; }
+
+.gradient-button-insta {background-image: linear-gradient(to right, #f704aa 0%, #f70448	 51%, #f704aa 100%)}
+.gradient-button-insta:hover { background-position: right center; }
+
+.gradient-button-twit {background-image: linear-gradient(to right, #37ecfc 0%, #02adfc	 51%, #37ecfc 100%)}
+.gradient-button-twit:hover { background-position: right center; }
+
+.gradient-button-link {background-image: linear-gradient(to right, #04b2f7 0%, #045df7	 51%, #04b2f7 100%)}
+.gradient-button-link:hover { background-position: right center; }
+
+/*Arrow*/
+.downArrow{
+	position: relative;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/* Demo Purpose Only*/
+.demo {
+  font-family: 'Raleway', sans-serif;
+	color:#fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+.demo a{
+  font-family: 'Raleway', sans-serif;
+color: #2ecc71;		
+}
