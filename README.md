@@ -1,2 +1,2 @@
 # midsizemango.github.io
-This is just a Github Page that contains information about me.
+This is just a Github Page about me.
